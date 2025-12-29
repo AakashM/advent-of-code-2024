@@ -25,7 +25,7 @@ public class Day1Test {
     @Test
     void solveInputB() {
         long output = new Day1().solveB(readInput("day1-input.txt"));
-        Assertions.assertEquals(0, output);
+        Assertions.assertEquals(22588371, output);
     }
 
     List<List<Integer>> readInput(String filename) {
